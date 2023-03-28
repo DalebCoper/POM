@@ -11,11 +11,3 @@ class LoginPage:
         self._login.fill(login_login)
         self._password.fill(login_password)
         self.page.locator("div > #submit").click()
-
-    def log_out(self):
-        self.page.locator(".wp-block-button__link").click()
-
-# function login_button
-    @property
-    def login_button(self):
-        return self._login
