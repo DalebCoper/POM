@@ -15,7 +15,6 @@ class LoginPage:
     def log_out(self):
         self.page.locator(".wp-block-button__link").click()
 
-# function login_button
     @property
     def login_button(self):
         return self._login
