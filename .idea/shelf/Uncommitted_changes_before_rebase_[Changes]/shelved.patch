@@ -1,0 +1,18 @@
+Index: tests/test_file_downloader.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from playwright.sync_api import Page\r\n\r\n\r\ndef test_file_downloader(page: Page) -> None:\r\n    page.goto(\"https://the-internet.herokuapp.com/download\")\r\n    with page.expect_download() as download_info:\r\n        page.get_by_role(\"link\", name=\"some-file.txt\").click()\r\n    download = download_info.value\r\n    print(download.path())\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tests/test_file_downloader.py b/tests/test_file_downloader.py
+--- a/tests/test_file_downloader.py	(revision 7d9fc9e3a9d94f6d5412525aafb72fc97a0c628c)
++++ b/tests/test_file_downloader.py	(date 1679496191457)
+@@ -4,6 +4,6 @@
+ def test_file_downloader(page: Page) -> None:
+     page.goto("https://the-internet.herokuapp.com/download")
+     with page.expect_download() as download_info:
+-        page.get_by_role("link", name="some-file.txt").click()
++        page.locator("#content > div > a:nth-child(14)").click()
+     download = download_info.value
+     print(download.path())
