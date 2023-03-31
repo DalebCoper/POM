@@ -1,15 +1,15 @@
 class LoginPage:
     def __init__(self, page):
         self.page = page
-        self._login = page.locator("div > #username")
-        self._password = page.locator("div > #password")
+        self.input_login_selector = page.locator("div > #username")
+        self.input_password_selector = page.locator("div > #password")
 
     def navigate(self):
         self.page.goto("https://practicetestautomation.com/practice-test-login/")
 
     def login(self, login_login, login_password):
-        self._login.fill(login_login)
-        self._password.fill(login_password)
+        self.input_login_selector.fill(login_login)
+        self.input_password_selector.fill(login_password)
         self.page.locator("div > #submit").click()
 
     def logout(self):
@@ -17,4 +17,4 @@ class LoginPage:
 
     @property
     def login_button(self):
-        return self._login
+        return self.input_login_selector
