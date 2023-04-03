@@ -10,6 +10,6 @@ class Exceptions:
         self.page.locator("div > #add_btn").click()
 
     def add_save_element(self, text):
-        self.page.locator("div > #add_btn").click()
+        self.page.locator("#add_btn").click()
         self._text_to_input.fill(text)
         self.page.locator("#row2 > #save_btn").click()
