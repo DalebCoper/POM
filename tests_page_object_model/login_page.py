@@ -1,5 +1,4 @@
 import re
-
 from playwright.sync_api import expect
 from pageObjects.LoginPage import LoginPage
 
