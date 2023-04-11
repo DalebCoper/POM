@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24328181-4dea-4efd-8323-33c1ccfc43ae" name="Changes" comment="code improved">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="24328181-4dea-4efd-8323-33c1ccfc43ae" name="Changes" comment="code adjusted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +66,14 @@
       <recent name="C:\Users\diest\PycharmProjects\pythonProject1\herokuapp_test\auth_test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diest\PycharmProjects\pythonProject1\tests_page_object_model" />
+      <recent name="C:\Users\diest\PycharmProjects\pythonProject1\tests_page_object_model\tests" />
       <recent name="C:\Users\diest\PycharmProjects\pythonProject1\POM\pageObjects" />
       <recent name="C:\Users\diest\PycharmProjects\pythonProject1\POM" />
       <recent name="C:\Users\diest\PycharmProjects\pythonProject1\POM\pageObjects\tests" />
-      <recent name="C:\Users\diest\PycharmProjects\pythonProject1\herokuapp_test" />
-      <recent name="C:\Users\diest\PycharmProjects\pythonProject1\herokuapp_test\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in login_page.py">
+  <component name="RunManager" selected="Python tests.Python tests in exceptions.py">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,27 +87,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\diest\PycharmProjects\pythonProject1\123.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_page_object_model/pageObjects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_page_object_model/pageObjects/Exceptions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_page.test_login_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for exceptions.test_edit_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +126,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_page.test_login_logout&quot;" />
+      <option name="_new_target" value="&quot;exceptions.test_edit_element&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_page.test_login_negative_username" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for exceptions.test_element_not_interactable_exception" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +140,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_page.test_login_negative_username&quot;" />
+      <option name="_new_target" value="&quot;exceptions.test_element_not_interactable_exception&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_page.test_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for exceptions.test_no_such_element_exception" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +154,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_page.test_login_positive&quot;" />
+      <option name="_new_target" value="&quot;exceptions.test_no_such_element_exception&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in login_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for exceptions.test_save_added_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,17 +168,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests_page_object_model/login_page.py&quot;" />
+      <option name="_new_target" value="&quot;exceptions.test_save_added_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in exceptions.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_page_object_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests_page_object_model/exceptions.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in login_page.py" />
-        <item itemvalue="Python tests.Python tests for login_page.test_login_negative_username" />
-        <item itemvalue="Python tests.Python tests for login_page.test_login_positive" />
-        <item itemvalue="Python.Exceptions" />
-        <item itemvalue="Python tests.Python tests for login_page.test_login_logout" />
+        <item itemvalue="Python tests.Python tests in exceptions.py" />
+        <item itemvalue="Python tests.Python tests for exceptions.test_edit_element" />
+        <item itemvalue="Python tests.Python tests for exceptions.test_save_added_element" />
+        <item itemvalue="Python tests.Python tests for exceptions.test_element_not_interactable_exception" />
+        <item itemvalue="Python tests.Python tests for exceptions.test_no_such_element_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680559104865</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="up">
+      <created>1680559265436</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680559265436</updated>
+    </task>
+    <task id="LOCAL-00019" summary="code adjusted">
+      <created>1681237198721</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681237198721</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,10 +387,11 @@
     <MESSAGE value="First: login page" />
     <MESSAGE value="added new test cases for LoginPage" />
     <MESSAGE value="testing func" />
-    <MESSAGE value="up" />
     <MESSAGE value="using of constants" />
     <MESSAGE value="better naming" />
     <MESSAGE value="code improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="code improved" />
+    <MESSAGE value="up" />
+    <MESSAGE value="code adjusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="code adjusted" />
   </component>
 </project>
