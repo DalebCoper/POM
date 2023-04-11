@@ -23,5 +23,3 @@ class Exceptions:
         self.edit_button.click()
         self.text_to_edit.fill(text)
         self.save_edited_element.click()
-
-#testing
